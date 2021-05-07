@@ -3,6 +3,7 @@ local channel = "RAID"
 local menuItems = {
    20452, -- Smoked Desert Dumplings
    13928, -- Grilled Squid
+   --18254, -- Runn Tum Tuber Surprise
    13931, -- Nightfin Soup
    18045, -- Tender Wolf Steak
    21151, -- Rumsey Rum Black Label
@@ -17,8 +18,6 @@ local specialItems = {
    21023, -- Dirge's Kickin' Chimaerok Chops
    18262, -- Elemental Sharpening Stone
 }
-
-local customer = nil
 
 local function printHeader()
    SendChatMessage("------Sten's-Food-Truck-------", channel)
