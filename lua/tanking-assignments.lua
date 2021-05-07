@@ -15,7 +15,7 @@ local tanks = {
 }
 
 local function printHeader()
-    SendChatMessage("-----Tanking-Assignments------", channel)
+   SendChatMessage("-----Tanking-Assignments------", channel)
 end
 
 local function printAssignment(tankIndex)
@@ -36,9 +36,9 @@ local function printAssignments()
 end
 
 local function printFooter()
-    SendChatMessage("------------------------------", channel)
- end
- 
- printHeader()
- printAssignments()
- printFooter()
+   SendChatMessage("------------------------------", channel)
+end
+
+printHeader()
+printAssignments()
+printFooter()
